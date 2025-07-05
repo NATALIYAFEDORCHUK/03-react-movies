@@ -33,7 +33,7 @@ export default function App() {
 
   return (
     <>
-     <Toaster />
+      <Toaster />
       <SearchBar onSubmit={handleSearch} />
       {isLoading && <Loader />}
       {isError && <ErrorMessage />}
